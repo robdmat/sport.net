@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <!-- Uncomment this if you have PEAR Log installed
+    <log>
+        <type>file</type>
+        <name>/path/to/propel.log</name>
+        <ident>propel-bookstore</ident>
+        <level>7</level>
+    </log>
+    -->
+    <propel>
+        <datasources default="webmaster">
+        <datasource id="webmaster">
+            <adapter>mysql</adapter> <!-- sqlite, mysql, mssql, oracle, or pgsql -->
+            <connection>
+                <dsn>mysql:host=localhost;dbname=webde_webmaster</dsn>
+                <user>webde_webmaster</user>
+                <password>i]zas81od~Pu</password>
+            </connection>
+        </datasource>
+        </datasources>
+    </propel>
+</config>
